@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "crane": {
+      "locked": {
+        "lastModified": 1758758545,
+        "narHash": "sha256-NU5WaEdfwF6i8faJ2Yh+jcK9vVFrofLcwlD/mP65JrI=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "95d528a5f54eaba0d12102249ce42f4d01f4e364",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1758791193,
+        "narHash": "sha256-F8WmEwFoHsnix7rt290R0rFXNJiMbClMZyIC/e+HYf0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "25e53aa156d47bad5082ff7618f5feb1f5e02d01",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "crane": "crane",
+        "nixpkgs": "nixpkgs",
+        "sherif-src": "sherif-src"
+      }
+    },
+    "sherif-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750353024,
+        "narHash": "sha256-k5dhZEoH5g5/ebMibRM9w+WbwRxGOsJ8Zx8gvs9QAy0=",
+        "owner": "QuiiBz",
+        "repo": "sherif",
+        "rev": "1b9e157ba5f501dd1f4afd5d40639234ff8308e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "QuiiBz",
+        "ref": "v1.6.1",
+        "repo": "sherif",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
